@@ -226,7 +226,7 @@ function showQuestion(){
 }
 function showScore(){
     answersBtn.innerHTML=""
-    question.innerText=`Your score is ${score}/${(questions.length+1)}`
+    question.innerText=`Your score is ${score}/${(questions.length)}`
     nextBtn.innerText="Play Again"
 }
 function handler(){
