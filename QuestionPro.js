@@ -194,6 +194,7 @@ function resetQuiz(){
 function showQuestion(){
     let askQuestion=questions[questionNumber];
     answersBtn.innerHTML="";
+        nextBtn.style.display="none"
     question.innerText=`${questionNumber+1} . ${askQuestion.question}`
     askQuestion.answers.forEach((answer)=>{
         const button=document.createElement("button");
